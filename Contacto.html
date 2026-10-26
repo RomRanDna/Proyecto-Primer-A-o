@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopt2Love</title>
+
+    <link rel="icon" type="image/x-icon" href="img/IconoGato.png">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+
+</head>
+
+<body>
+
+    <header>
+        <img src="img/IconoGato.png" alt="logo" class="icon">
+        <nav>
+            <span class="material-symbols-outlined">menu</span>
+            <ul class="contenidoMenu">
+
+                <li><a href="/Inicio.html">Inicio</a></li>
+                <li><a href="/Catalogo.html">Catalogo</a></li>
+                <li><a href="/Contacto.html"><b>Contacto</b></a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="railes">
+            <section class="containerContacto">
+                <div class="divContacto">
+                    <h1>Contáctanos cuando lo necesites 💬</h1>
+                    <p>En Adopt2Love estamos aquí para ayudarte. Si tienes dudas, necesitas información o quieres saber
+                        más
+                        sobre adopciones, no dudes en ponerte en contacto con nosotros.</p>
+                    <p>💙 Estaremos encantados de escucharte y ayudarte en todo lo que necesites.</p>
+                </div>
+
+                <div class="formulario">
+                    <form>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" pattern="[A-Za-z]{3,}"
+                            title="Solo letras, mínimo 3 caracteres" required>
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" name="email"
+                            pattern="[A-Za-z][A-Za-z0-9.-_]{5,31}@[A-Za-z][A-Za-z0-9.-_]{2,31}.[a-z]{2,32}"
+                            title="Debe contener @ y .com/.es, mínimo 3 caracteres" required>
+                        <label for="nombre">Asunto:</label>
+                        <textarea type="text" id="asunto" name="asunto" rows="4" cols="50" pattern="[A-Za-z0-9.-_]{3,}"
+                            title="Mínimo 3 caracteres" required> </textarea>
+                        <button type="submit" class="enviar">Enviar</button>
+                    </form>
+                </div>
+            </section>
+
+            <section class="containerContacto">
+                <div class="divContacto">
+                    <h2>Ven a conocernos 🐾</h2>
+                    <p>Te invitamos a visitar nuestros refugios y conocer a nuestros perros y gatos en persona.
+                        Quizá tu compañero ideal te esté esperando.</p>
+                    <p>💙 Ven, conócenos y enamórate.</p>
+                </div>
+
+                <div class="divContacto">
+                    <img src="img/maps.png" alt="Ubicacion de centro">
+                </div>
+            </section>
+
+            <section>
+                <h2>Síguenos y ayúdanos a llegar más lejos 💙</h2>
+                <p>En Adopt2Love, cada pequeño gesto cuenta. Seguirnos en redes sociales es una forma sencilla pero muy
+                    importante de ayudar a nuestros perros y gatos. Gracias a vuestra difusión, más personas pueden
+                    conocer
+                    sus historias y encontrarles el hogar que tanto merecen.</p>
+                <p>Compartiendo nuestras publicaciones, dándole “me gusta” o hablando de nosotros, estás contribuyendo
+                    directamente a que más animales sean adoptados y menos queden en el olvido.</p>
+                <p>Somos una comunidad que crece gracias a personas como tú: comprometidas, solidarias y amantes de los
+                    animales.</p>
+                <p>🐾 Síguenos, comparte y sé parte del cambio.</p>
+                <p>💙 Juntos podemos salvar más vidas.</p>
+
+                <a href="#"><b><br>@adopt2love</b></a>
+            </section>
+        </div>
+
+    </main>
+
+    <footer>
+
+        <p>Adopt2Love</p>
+        <p>📧 adopt2love@gmail.com</p>
+        <p>📍 Calle de Alcalá, 50, Madrid, España</p>
+        <p>📞 222 22 22 22</p>
+        <a href="/Contacto.html"><img src="img/paw.png" alt="Ayuda" class="pawIcon"></a>
+
+    </footer>
+
+
+
+</body>
+
+<script src="js/script.js"></script>
+
+</html>
